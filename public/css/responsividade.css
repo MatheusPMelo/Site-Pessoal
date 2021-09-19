@@ -1,0 +1,55 @@
+@media screen and (max-width: 900px) {
+  * {
+    margin: 0;
+  }
+
+  header {
+    height: 240px;
+    background-attachment: scroll;
+  }
+
+  #titulo {
+    margin-left: 1rem;
+  }
+
+  #titulo_principal {
+    font-size: 15pt;
+  }
+
+  nav {
+    background-color: #ffff;
+    margin: none;
+
+    font-size: 15pt;
+  }
+
+  article #skill_content {
+    display: flex;
+    justify-content: center;
+  }
+
+  #skill_titulo {
+    font-size: 18pt;
+  }
+
+  .container_skills {
+    width: 90%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .skill_align {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #portifólio {
+    height: 26rem;
+  }
+
+  #port_titulo {
+    margin-bottom: -1rem;
+  }
+}
